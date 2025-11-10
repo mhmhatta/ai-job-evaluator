@@ -1,0 +1,147 @@
+2025-11-10 01:09:50 | INFO | root | [HTTP] GET /api/health
+2025-11-10 01:09:50 | INFO | root | [HTTP] Completed GET /api/health in 0.0s (200)
+2025-11-10 01:10:15 | INFO | root | [HTTP] POST /api/upload
+2025-11-10 01:10:15 | INFO | root | Uploading CV and project report...
+2025-11-10 01:10:15 | INFO | root | [HTTP] Completed POST /api/upload in 0.0s (200)
+2025-11-10 01:10:50 | INFO | root | [HTTP] POST /api/evaluate
+2025-11-10 01:10:50 | INFO | root | Job created: 0adb8908-57fa-482c-92cf-3f24f2582681
+2025-11-10 01:10:50 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 01:10:52 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 01:10:52 | WARNING | root | [LLM] Attempt 1 failed: build_prompt() missing 1 required positional argument: 'context'
+2025-11-10 01:10:54 | WARNING | root | [LLM] Attempt 2 failed: build_prompt() missing 1 required positional argument: 'context'
+2025-11-10 01:10:58 | WARNING | root | [LLM] Attempt 3 failed: build_prompt() missing 1 required positional argument: 'context'
+2025-11-10 01:11:04 | ERROR | root | [LLM] All retry attempts failed
+2025-11-10 01:11:04 | WARNING | root | [PIPELINE] Fallback: Non-JSON response detected
+2025-11-10 01:11:04 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 01:11:04 | INFO | root | [HTTP] Completed POST /api/evaluate in 13.54s (200)
+2025-11-10 01:11:22 | INFO | root | [HTTP] GET /api/result/0adb8908-57fa-482c-92cf-3f24f2582681
+2025-11-10 01:11:22 | INFO | root | Checking result for job 0adb8908-57fa-482c-92cf-3f24f2582681: completed
+2025-11-10 01:11:22 | INFO | root | [HTTP] Completed GET /api/result/0adb8908-57fa-482c-92cf-3f24f2582681 in 0.01s (200)
+2025-11-10 01:11:51 | INFO | root | [HTTP] GET /api/result/0adb8908-57fa-482c-92cf-3f24f2582681
+2025-11-10 01:11:51 | INFO | root | Checking result for job 0adb8908-57fa-482c-92cf-3f24f2582681: completed
+2025-11-10 01:11:51 | INFO | root | [HTTP] Completed GET /api/result/0adb8908-57fa-482c-92cf-3f24f2582681 in 0.0s (200)
+2025-11-10 01:18:38 | INFO | root | [HTTP] POST /api/upload
+2025-11-10 01:18:38 | INFO | root | Uploading CV and project report...
+2025-11-10 01:18:38 | INFO | root | [HTTP] Completed POST /api/upload in 0.01s (200)
+2025-11-10 01:18:52 | INFO | root | [HTTP] POST /api/evaluate
+2025-11-10 01:18:52 | INFO | root | Job created: e885f1fa-8201-4467-98df-e721b5e3d603
+2025-11-10 01:18:52 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 01:18:53 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 01:18:53 | INFO | root | [LLM] Generating response (attempt 1)
+2025-11-10 01:19:10 | INFO | root | [LLM] Success
+2025-11-10 01:19:10 | INFO | root | [PIPELINE] LLM JSON parsed successfully
+2025-11-10 01:19:10 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 01:19:10 | INFO | root | [HTTP] Completed POST /api/evaluate in 18.35s (200)
+2025-11-10 01:19:20 | INFO | root | [HTTP] GET /api/result/e885f1fa-8201-4467-98df-e721b5e3d603
+2025-11-10 01:19:20 | INFO | root | Checking result for job e885f1fa-8201-4467-98df-e721b5e3d603: completed
+2025-11-10 01:19:20 | INFO | root | [HTTP] Completed GET /api/result/e885f1fa-8201-4467-98df-e721b5e3d603 in 0.0s (200)
+2025-11-10 01:22:08 | INFO | root | [HTTP] POST /api/replay/e885f1fa-8201-4467-98df-e721b5e3d603
+2025-11-10 01:22:08 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 01:22:09 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 01:22:09 | INFO | root | [LLM] Generating response (attempt 1)
+2025-11-10 01:22:24 | INFO | root | [LLM] Success
+2025-11-10 01:22:24 | INFO | root | [PIPELINE] LLM JSON parsed successfully
+2025-11-10 01:22:24 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 01:22:24 | INFO | root | [HTTP] Completed POST /api/replay/e885f1fa-8201-4467-98df-e721b5e3d603 in 16.52s (200)
+2025-11-10 01:22:34 | INFO | root | [HTTP] POST /api/replay/e885f1fa-8201-4467-98df-e721b5e3d603
+2025-11-10 01:22:34 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 01:22:35 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 01:22:35 | INFO | root | [LLM] Generating response (attempt 1)
+2025-11-10 01:22:47 | INFO | root | [LLM] Success
+2025-11-10 01:22:47 | INFO | root | [PIPELINE] LLM JSON parsed successfully
+2025-11-10 01:22:47 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 01:22:47 | INFO | root | [HTTP] Completed POST /api/replay/e885f1fa-8201-4467-98df-e721b5e3d603 in 13.32s (200)
+2025-11-10 01:23:01 | INFO | root | [HTTP] GET /api/result/e885f1fa-8201-4467-98df-e721b5e3d603
+2025-11-10 01:23:01 | INFO | root | Checking result for job e885f1fa-8201-4467-98df-e721b5e3d603: completed
+2025-11-10 01:23:01 | INFO | root | [HTTP] Completed GET /api/result/e885f1fa-8201-4467-98df-e721b5e3d603 in 0.0s (200)
+2025-11-10 01:23:09 | INFO | root | [HTTP] GET /api/result/e885f1fa-8201-4467-98df-e721b5e3d603
+2025-11-10 01:23:09 | INFO | root | Checking result for job e885f1fa-8201-4467-98df-e721b5e3d603: completed
+2025-11-10 01:23:09 | INFO | root | [HTTP] Completed GET /api/result/e885f1fa-8201-4467-98df-e721b5e3d603 in 0.0s (200)
+2025-11-10 01:23:51 | INFO | root | [HTTP] GET /api/metrics
+2025-11-10 01:23:51 | INFO | root | [HTTP] Completed GET /api/metrics in 0.0s (200)
+2025-11-10 17:24:29 | INFO | root | [HTTP] POST /upload
+2025-11-10 17:24:29 | INFO | root | [HTTP] Completed POST /upload in 0.0s (422)
+2025-11-10 17:24:44 | INFO | root | [HTTP] POST /upload
+2025-11-10 17:24:44 | INFO | root | [HTTP] Completed POST /upload in 0.0s (422)
+2025-11-10 17:25:05 | INFO | root | [HTTP] POST /api/upload
+2025-11-10 17:25:05 | INFO | root | [HTTP] Completed POST /api/upload in 0.0s (422)
+2025-11-10 17:25:07 | INFO | root | [HTTP] POST /api/upload
+2025-11-10 17:25:07 | INFO | root | [HTTP] Completed POST /api/upload in 0.0s (422)
+2025-11-10 17:37:39 | INFO | root | [HTTP] POST /upload
+2025-11-10 17:37:39 | INFO | root | [HTTP] Completed POST /upload in 0.0s (422)
+2025-11-10 17:39:16 | INFO | root | [HTTP] POST /upload
+2025-11-10 17:39:16 | INFO | root | [UPLOAD] Received files: CV - Hatta Abdillah (AI & Data).pdf, Case Study Brief - Backend.pdf
+2025-11-10 17:39:16 | INFO | root | [HTTP] Completed POST /upload in 0.04s (200)
+2025-11-10 17:39:49 | INFO | root | [HTTP] POST /evaluate
+2025-11-10 17:39:49 | INFO | root | [EVALUATE] Job created successfully | ID=40bcfefe-9bd6-48ca-8e66-2f862856922c
+2025-11-10 17:39:49 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 17:39:53 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 17:39:53 | INFO | root | [LLM] Generating response (attempt 1)
+2025-11-10 17:40:09 | INFO | root | [LLM] Success
+2025-11-10 17:40:09 | INFO | root | [PIPELINE] LLM JSON parsed successfully
+2025-11-10 17:40:09 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 17:40:09 | INFO | root | [HTTP] Completed POST /evaluate in 19.26s (200)
+2025-11-10 17:40:39 | INFO | root | [HTTP] GET /api/result/40bcfefe-9bd6-48ca-8e66-2f862856922c
+2025-11-10 17:40:39 | INFO | root | [HTTP] Completed GET /api/result/40bcfefe-9bd6-48ca-8e66-2f862856922c in 0.0s (404)
+2025-11-10 17:40:48 | INFO | root | [HTTP] GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c
+2025-11-10 17:40:48 | INFO | root | [RESULT] Checking job 40bcfefe-9bd6-48ca-8e66-2f862856922c — Status: completed
+2025-11-10 17:40:48 | INFO | root | [HTTP] Completed GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c in 0.0s (200)
+2025-11-10 17:41:05 | INFO | root | [HTTP] GET /metrics
+2025-11-10 17:41:05 | INFO | root | [METRICS] Total=1 | Completed=1 | Failed=0
+2025-11-10 17:41:05 | INFO | root | [HTTP] Completed GET /metrics in 0.0s (200)
+2025-11-10 17:41:22 | INFO | root | [HTTP] POST /replay/e885f1fa-8201-4467-98df-e721b5e3d603
+2025-11-10 17:41:22 | INFO | root | [HTTP] Completed POST /replay/e885f1fa-8201-4467-98df-e721b5e3d603 in 0.0s (404)
+2025-11-10 17:41:31 | INFO | root | [HTTP] POST /replay/40bcfefe-9bd6-48ca-8e66-2f862856922c
+2025-11-10 17:41:31 | INFO | root | [REPLAY] Replayed job 40bcfefe-9bd6-48ca-8e66-2f862856922c \u2192 New ID=14f5db31-81cd-4f74-b1c0-33336cb7af9a
+2025-11-10 17:41:31 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 17:41:34 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 17:41:34 | INFO | root | [LLM] Generating response (attempt 1)
+2025-11-10 17:41:50 | INFO | root | [LLM] Success
+2025-11-10 17:41:50 | INFO | root | [PIPELINE] LLM JSON parsed successfully
+2025-11-10 17:41:50 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 17:41:50 | INFO | root | [HTTP] Completed POST /replay/40bcfefe-9bd6-48ca-8e66-2f862856922c in 19.2s (200)
+2025-11-10 17:42:09 | INFO | root | [HTTP] GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c
+2025-11-10 17:42:09 | INFO | root | [RESULT] Checking job 40bcfefe-9bd6-48ca-8e66-2f862856922c — Status: completed
+2025-11-10 17:42:09 | INFO | root | [HTTP] Completed GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c in 0.0s (200)
+2025-11-10 17:42:14 | INFO | root | [HTTP] GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c
+2025-11-10 17:42:14 | INFO | root | [RESULT] Checking job 40bcfefe-9bd6-48ca-8e66-2f862856922c — Status: completed
+2025-11-10 17:42:14 | INFO | root | [HTTP] Completed GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c in 0.0s (200)
+2025-11-10 17:56:51 | INFO | root | [HTTP] GET /result/14f5db31-81cd-4f74-b1c0-33336cb7af9a
+2025-11-10 17:56:51 | INFO | root | [RESULT] Checking job 14f5db31-81cd-4f74-b1c0-33336cb7af9a — Status: completed
+2025-11-10 17:56:51 | INFO | root | [HTTP] Completed GET /result/14f5db31-81cd-4f74-b1c0-33336cb7af9a in 0.0s (200)
+2025-11-10 18:07:37 | INFO | root | [HTTP] GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c
+2025-11-10 18:07:37 | INFO | root | [RESULT] Checking job 40bcfefe-9bd6-48ca-8e66-2f862856922c — Status: completed
+2025-11-10 18:07:37 | INFO | root | [HTTP] Completed GET /result/40bcfefe-9bd6-48ca-8e66-2f862856922c in 0.0s (200)
+2025-11-10 18:18:50 | INFO | root | [HTTP] GET /result/14f5db31-81cd-4f74-b1c0-33336cb7af9a
+2025-11-10 18:18:50 | INFO | root | [RESULT] Checking job 14f5db31-81cd-4f74-b1c0-33336cb7af9a — Status: completed
+2025-11-10 18:18:50 | INFO | root | [HTTP] Completed GET /result/14f5db31-81cd-4f74-b1c0-33336cb7af9a in 0.0s (200)
+2025-11-10 19:18:56 | INFO | root | [HTTP] POST /upload
+2025-11-10 19:18:56 | INFO | root | [UPLOAD] Received files: CV - Hatta Abdillah (AI & Data).pdf, Case Study Brief - Backend.pdf
+2025-11-10 19:18:56 | INFO | root | [HTTP] Completed POST /upload in 0.01s (200)
+2025-11-10 19:19:10 | INFO | root | [HTTP] POST /evaluate
+2025-11-10 19:19:10 | INFO | root | [EVALUATE] Job created successfully | ID=e2cf815f-e100-465b-ac17-e44926e45a6f
+2025-11-10 19:19:10 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 19:19:13 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 19:19:13 | INFO | root | [LLM] Generating response (attempt 1)
+2025-11-10 19:19:31 | INFO | root | [LLM] Success
+2025-11-10 19:19:31 | INFO | root | [PIPELINE] LLM JSON parsed successfully
+2025-11-10 19:19:31 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 19:19:31 | INFO | root | [HTTP] Completed POST /evaluate in 21.59s (200)
+2025-11-10 19:19:41 | INFO | root | [HTTP] GET /result/e2cf815f-e100-465b-ac17-e44926e45a6f
+2025-11-10 19:19:41 | INFO | root | [RESULT] Checking job e2cf815f-e100-465b-ac17-e44926e45a6f — Status: completed
+2025-11-10 19:19:41 | INFO | root | [HTTP] Completed GET /result/e2cf815f-e100-465b-ac17-e44926e45a6f in 0.0s (200)
+2025-11-10 19:19:46 | INFO | root | [HTTP] GET /metrics
+2025-11-10 19:19:46 | INFO | root | [METRICS] Total=1 | Completed=1 | Failed=0
+2025-11-10 19:19:46 | INFO | root | [HTTP] Completed GET /metrics in 0.0s (200)
+2025-11-10 19:19:52 | INFO | root | [HTTP] POST /replay/e2cf815f-e100-465b-ac17-e44926e45a6f
+2025-11-10 19:19:52 | INFO | root | [REPLAY] Replayed job e2cf815f-e100-465b-ac17-e44926e45a6f \u2192 New ID=77e7da05-2153-4aac-9b6b-a8f389cdd0c6
+2025-11-10 19:19:52 | INFO | root | [PIPELINE] Starting evaluation for job title: Backend Engineer
+2025-11-10 19:19:56 | INFO | root | [PIPELINE] LLM request attempt 1
+2025-11-10 19:19:56 | INFO | root | [LLM] Generating response (attempt 1)
+2025-11-10 19:20:12 | INFO | root | [LLM] Success
+2025-11-10 19:20:12 | INFO | root | [PIPELINE] LLM JSON parsed successfully
+2025-11-10 19:20:12 | INFO | root | [PIPELINE] Evaluation completed successfully for Backend Engineer
+2025-11-10 19:20:12 | INFO | root | [HTTP] Completed POST /replay/e2cf815f-e100-465b-ac17-e44926e45a6f in 19.12s (200)
+2025-11-10 19:20:28 | INFO | root | [HTTP] GET /result/77e7da05-2153-4aac-9b6b-a8f389cdd0c6
+2025-11-10 19:20:28 | INFO | root | [RESULT] Checking job 77e7da05-2153-4aac-9b6b-a8f389cdd0c6 — Status: completed
+2025-11-10 19:20:28 | INFO | root | [HTTP] Completed GET /result/77e7da05-2153-4aac-9b6b-a8f389cdd0c6 in 0.0s (200)
